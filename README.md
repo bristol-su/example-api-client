@@ -50,15 +50,14 @@
 
 ## About The Module
 
-This module shows predefined HTML to the user.
+Connect to the example module API easily.
 
-- Fully-featured WYSIWGY editor for defining the page
-- Track page views
-- Allow for a button to mark the module as complete
+- Create and view files
+- Comment on files
 
 ## Getting Started
 
-All you need to do to get started using this module is pull it into the portal or the playground!
+All you need to do to get started using this module is pull it into the API Client
 
 ```sh
 composer require your-username/your-repository
