@@ -1,0 +1,30 @@
+{
+    "name": "bristol-su/example-api-client",
+    "description": "A Bristol SU Api Client exension for the example module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "youremail@example.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "bristol-su/api-client-toolkit": "dev-develop"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\ApiClientImplementation\\Module\\": "src/"
+        },
+        "classmap": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YourNamespace\\ApiClientImplementation\\Tests\\Module\\": "tests/"
+        }
+    }
+}
